@@ -1,7 +1,7 @@
 # Creating rare disease networks
 This repository contains the R script and the related files to create a rare disease network using the DisGeNET, STRING, WikiPathways, and DrugBank APIs. The script retrieves disease-related genes and their protein-protein interactions, pathways, and similar drugs based on their gene symbols. The network is then visualized using the visNetwork package in a Shiny app. It serves as a pipeline for creating and analzing rare disease networks. 
 
-#Dependencies
+# Dependencies
 The R script was made using __ version of RStudio. You will first need to install the following packages: 
 
 install.packages("httr"). Version: 
@@ -14,11 +14,11 @@ install.packages("viridis"). Version:
 install.packages("stringdist"). Version: 
 
 
-#Usage steps
+# Usage steps
 Obtain an API key from DisGeNET by creating a account and getting it authorized and replace the placeholder api_key in the script. Download the DrugBank dataset in CSV format and update the path to the file in the drugbank_data variable in the Rscript. Run the code and a shiny application will open. Type the name of the disease and click submit. Makesure the first letter each word is captilized
 
 
-#Workflow
+# Workflow
 1) Set up the API key and authorization headers for the DisGeNET API.
 2) Retrieve the disease-associated genes from the DisGeNET API.
 3) Convert the JSON response to a data frame.
