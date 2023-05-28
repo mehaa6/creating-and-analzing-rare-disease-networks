@@ -1,4 +1,4 @@
-# Creating rare disease networks
+# RareGenoScope Application instructions
 This repository contains the R script and the related files to create a rare disease network using the DisGeNET, STRING, WikiPathways, and DrugBank APIs. The script retrieves disease-related genes and their protein-protein interactions, pathways, and similar drugs based on their gene symbols. The network is then visualized using the visNetwork package in a Shiny app. It serves as a pipeline for creating and analzing rare disease networks. 
 
 # Packages
