@@ -5,20 +5,22 @@ This repository contains the R script and the related files to create a rare dis
 
 The R script was made using version 2022.12.0+353 of RStudio. You will first need to install the following packages: 
 
-install.packages("httr"). Version: 
-install.packages("jsonlite"). Version: 
-install.packages("dplyr"). Version: 
-install.packages("igraph"). Version: 
-install.packages("visNetwork"). Version: 
-install.packages("shiny"). Version: 
-install.packages("viridis"). Version: 
-install.packages("stringdist"). Version: 
+library(httr) Version: 1.4.5 
+library(biomaRt) Version: 2.54.1 
+library(jsonlite) Version: 1.8.4 
+library(dplyr) Version: 1.1.1 
+library(shiny) Version: 1.7.4
+library(viridis) Version: 0.6.2 
+library(visNetwork) Version: 2.1.2
+library(stringdist) Version: 0.9.10 
 
 
 # Other tools that are needed
 Obtain an API key from DisGeNET by creating a account and getting it authorized and replace the placeholder api_key in the script. Download the DrugBank dataset in CSV format and update the path to the file in the drugbank_data variable in the Rscript. Run the code and a shiny application will open. Type the name of the disease and click submit. Makesure the first letter each word is captilized
 
 Drugbank file was downloaded from go.drugbank.com and then sorted and converted to csv using python code. this python code can be found in the repository to sort and extract the information from the file. 
+
+
 
 # Workflow
 1) Set up the API key and authorization headers for the DisGeNET API.
