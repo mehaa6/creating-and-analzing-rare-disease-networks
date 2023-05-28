@@ -1,18 +1,14 @@
 # Author: Mehaa Prabakar
 #Rstudio version: 2022.12.0+353
 
-library(httr)
-library(biomaRt)
-library(jsonlite)
-library(dplyr)
-library(httr)
-library(jsonlite)
-library(shiny)
-library(viridis)
-library(visNetwork)
-library(dplyr)
-library(igraph)
-library(stringdist)
+library(httr) #Version: 1.4.5 
+library(biomaRt) #Version: 2.54.1 
+library(jsonlite) #Version: 1.8.4 
+library(dplyr) #Version: 1.1.1 
+library(shiny) #Version: 1.7.4
+library(viridis) #Version: 0.6.2 
+library(visNetwork) #Version: 2.1.2
+library(stringdist) #Version: 0.9.10 
 
 
 ui <- fluidPage(
