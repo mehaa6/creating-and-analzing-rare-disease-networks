@@ -291,18 +291,10 @@ server <- function(input, output) {
           write.csv(edges, filename, row.names = FALSE)
           
           
-          
         }
       )
-      
-      
-      
-      
-   
-      
     }
   })
-  
 }
 
 
