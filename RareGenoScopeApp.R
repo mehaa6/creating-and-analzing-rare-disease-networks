@@ -1,4 +1,3 @@
-# Author: Mehaa Prabakar
 #Rstudio version: 2022.12.0+353
 
 library(httr) #Version: 1.4.5 
